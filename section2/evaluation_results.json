@@ -1,0 +1,101 @@
+{
+  "questions": 10,
+  "hitrate_at_3": 1.0,
+  "mrr": 0.7667,
+  "avg_latency_ms": 2132.14,
+  "p95_latency_ms": 2224.97,
+  "avg_confidence_hit": 0.6309,
+  "avg_confidence_miss": 0.0,
+  "details": [
+    {
+      "id": 1,
+      "question": "What is the notice period in the NDA with Vendor X?",
+      "hit@3": true,
+      "reciprocal_rank": 0.3333,
+      "confidence": 0.633,
+      "latency_ms": 2673.91,
+      "top_document": "msa_vendor_y.pdf"
+    },
+    {
+      "id": 2,
+      "question": "How long do confidentiality obligations continue under the NDA with Vendor X?",
+      "hit@3": true,
+      "reciprocal_rank": 1.0,
+      "confidence": 0.711,
+      "latency_ms": 2224.97,
+      "top_document": "nda_vendor_x.pdf"
+    },
+    {
+      "id": 3,
+      "question": "Which law governs the NDA with Vendor X?",
+      "hit@3": true,
+      "reciprocal_rank": 0.3333,
+      "confidence": 0.658,
+      "latency_ms": 2126.31,
+      "top_document": "nda_vendor_x.pdf"
+    },
+    {
+      "id": 4,
+      "question": "What are the payment terms in the MSA with Vendor Y?",
+      "hit@3": true,
+      "reciprocal_rank": 0.5,
+      "confidence": 0.647,
+      "latency_ms": 2028.77,
+      "top_document": "msa_vendor_y.pdf"
+    },
+    {
+      "id": 5,
+      "question": "What is the liability cap in the MSA with Vendor Y?",
+      "hit@3": true,
+      "reciprocal_rank": 1.0,
+      "confidence": 0.642,
+      "latency_ms": 2080.02,
+      "top_document": "msa_vendor_y.pdf"
+    },
+    {
+      "id": 6,
+      "question": "Does the MSA with Vendor Y automatically renew?",
+      "hit@3": true,
+      "reciprocal_rank": 1.0,
+      "confidence": 0.675,
+      "latency_ms": 2051.56,
+      "top_document": "msa_vendor_y.pdf"
+    },
+    {
+      "id": 7,
+      "question": "How many days cure period is allowed before termination for breach in the MSA with Vendor Y?",
+      "hit@3": true,
+      "reciprocal_rank": 1.0,
+      "confidence": 0.558,
+      "latency_ms": 2218.96,
+      "top_document": "msa_vendor_y.pdf"
+    },
+    {
+      "id": 8,
+      "question": "What is the reimbursement cap in the finance policy?",
+      "hit@3": true,
+      "reciprocal_rank": 1.0,
+      "confidence": 0.518,
+      "latency_ms": 1979.39,
+      "top_document": "finance_policy.pdf"
+    },
+    {
+      "id": 9,
+      "question": "What approval is required for expenses above \u20b92 lakh?",
+      "hit@3": true,
+      "reciprocal_rank": 0.5,
+      "confidence": 0.538,
+      "latency_ms": 1877.36,
+      "top_document": "finance_policy.pdf"
+    },
+    {
+      "id": 10,
+      "question": "How long must expense reports and audit records be retained?",
+      "hit@3": true,
+      "reciprocal_rank": 1.0,
+      "confidence": 0.729,
+      "latency_ms": 2060.13,
+      "top_document": "finance_policy.pdf"
+    }
+  ]
+}

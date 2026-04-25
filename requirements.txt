@@ -1,0 +1,12 @@
+numpy
+PyMuPDF
+rank-bm25
+sentence-transformers
+faiss-cpu
+datasets
+transformers
+evaluate
+scikit-learn
+pandas
+torch
+accelerate>=0.26.0

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+section3/saved_model/
+section3/checkpoint-*/

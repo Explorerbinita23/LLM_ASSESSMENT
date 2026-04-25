@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the notice period in the NDA with Vendor X?",
+    "expected_source": {
+      "document": "nda_vendor_x.pdf",
+      "page": 2,
+      "clause": "7.2"
+    }
+  },
+  {
+    "question": "How long do confidentiality obligations continue under the NDA with Vendor X?",
+    "expected_source": {
+      "document": "nda_vendor_x.pdf",
+      "page": 2,
+      "clause": "3.3"
+    }
+  },
+  {
+    "question": "Which law governs the NDA with Vendor X?",
+    "expected_source": {
+      "document": "nda_vendor_x.pdf",
+      "page": 3,
+      "clause": "9.1"
+    }
+  },
+  {
+    "question": "What are the payment terms in the MSA with Vendor Y?",
+    "expected_source": {
+      "document": "msa_vendor_y.pdf",
+      "page": 2,
+      "clause": "5.2"
+    }
+  },
+  {
+    "question": "What is the liability cap in the MSA with Vendor Y?",
+    "expected_source": {
+      "document": "msa_vendor_y.pdf",
+      "page": 3,
+      "clause": "8.4"
+    }
+  },
+  {
+    "question": "Does the MSA with Vendor Y automatically renew?",
+    "expected_source": {
+      "document": "msa_vendor_y.pdf",
+      "page": 4,
+      "clause": "10.1"
+    }
+  },
+  {
+    "question": "How many days cure period is allowed before termination for breach in the MSA with Vendor Y?",
+    "expected_source": {
+      "document": "msa_vendor_y.pdf",
+      "page": 4,
+      "clause": "11.1"
+    }
+  },
+  {
+    "question": "What is the reimbursement cap in the finance policy?",
+    "expected_source": {
+      "document": "finance_policy.pdf",
+      "page": 1,
+      "clause": "4.1"
+    }
+  },
+  {
+    "question": "What approval is required for expenses above ₹2 lakh?",
+    "expected_source": {
+      "document": "finance_policy.pdf",
+      "page": 2,
+      "clause": "6.3"
+    }
+  },
+  {
+    "question": "How long must expense reports and audit records be retained?",
+    "expected_source": {
+      "document": "finance_policy.pdf",
+      "page": 3,
+      "clause": "9.1"
+    }
+  }
+]
